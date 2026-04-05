@@ -6,7 +6,7 @@ function [robot,homeConfig] = createRigidBodyTree
 
 % Import the robot description from the URDF file
 try
-    robot = importrobot('open_manipulator.urdf');
+    robot = importrobot('open_manipulator_x.urdf');
     
     % Add gravity
     gravityVec = [0 0 -9.80665];
